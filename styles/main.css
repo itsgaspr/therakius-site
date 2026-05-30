@@ -84,9 +84,13 @@ i {
         justify-content: center;
         align-items: center;
         width: 96%;
-        gap: 1.2rem;
+        gap: 2%;
         position: absolute;
         top: 18%;
+    }
+
+    .intro > * {
+        font-size: 10pt;
     }
 
     .intro {
@@ -95,7 +99,7 @@ i {
 
     img{
         height: auto;
-        width: 200px;
+        width: 180px;
     }
 
     main .icons {
@@ -108,13 +112,12 @@ i {
     }
 
     main p {
-        font-size: 14px;
         letter-spacing: 1.1px;
         line-height: 1.4rem;
     }
 
     main h3 {
-        font-size: 13px;
+        font-size: 12pt;
     }
 
     main  h3 > span{
@@ -123,13 +126,14 @@ i {
     }
 
     main h1 {
-        font-size: 2.4rem;
+        font-size: 18pt !important;
         letter-spacing: 1.1px;
+        line-height: 40pt;
     }
 
-    .icons ul li {
+    /* .icons ul li {
         font-size: 14px;
-    }
+    } */
 
 }
 
